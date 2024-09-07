@@ -548,7 +548,7 @@ header .icon a i {
 }
 
 .page2{
-    height: 180vh;
+    height: 170vh;
 }
 .page2 .tital{
     font-size: 38px;
@@ -621,11 +621,11 @@ header .icon a i {
 
 .tab-item{
     position: relative;
-    width: 96.5vw;
+    width: 96.9vw;
 }
 
 .tab-item .prise{
-    height: 60vh;
+    height: 55vh;
     width: 304.5px;
     background-color: #fff;
     border: 3px solid #000;
@@ -634,13 +634,16 @@ header .icon a i {
     display: flex;
     gap: 20px;
 }
+
 .tab-item .item .prise .contant{
     font-size: 25px;
+    padding: 40px 10px ;
 }
 .tab-item .item .prise .contant .pri{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 30px 0;
 }
 .tab-item .item .prise .contant .pri span{
     font-size: 30px;
@@ -650,9 +653,7 @@ header .icon a i {
 }
 
 
-
-
-/* .footer{
+.footer{
     position: relative;
     height: 45vh;
     width: 98.9vw;
@@ -692,64 +693,4 @@ header .icon a i {
     height: 50px;
     width: 300px;
     font-size: 20px;
-} */
-
-
-.tab-item .prise{
-    height: 60vh;
-    width: 304.5px;
-    background-color: #fff;
-    border: 3px solid #000;
 }
-.tab-item .item{
-    display: flex;
-    gap: 20px;
-}
-.tab-item{
-    width: 96.9vw;
-}
-
-
-
-
-/* .footer{
-    position: relative;
-    height: 45vh;
-    width: 98.9vw;
-    background-color: #000;
-}
-.footer .container{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 20%;
-}
-.footer .container ul .tital h1{
-    font-size: 30px;
-    position: relative;
-    bottom: 40px;
-}
-.footer .container ul{
-    color: #fff;
-    font-size: 30px;
-    line-height: 50px;
-}
-.footer .container ul p{
-    font-size: 25px;
-}
-.footer .container ul li{
-    font-size: 25px;
-}
-.footer .container ul button{
-    height: 60px;
-    width: 200px;
-    background-color: rgb(0, 183, 255);
-    border-radius: 30px;
-    position: relative;
-    top: 10%;
-}
-.footer .container ul input{
-    height: 50px;
-    width: 300px;
-    font-size: 20px;
-} */
