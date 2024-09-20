@@ -123,27 +123,30 @@ header .icon a i {
     font-weight: 600;
     font-style: normal;
 }
+.section{
+    height: 95vh;
+}
 .page1{
     width: 98.9vw;
-    height: 120vh;
+    height: 70vh;
     position: relative;
-    top: 170px;
+    top: 15rem;
 }
 .main{
     width: 98.9vw;
-    height: 110vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 145px;
 }
 .main .main_box .image img{
-    height: 82vh;
+    height: 60vh;
     width: 50vw;
 }
 .main_profile{
     width: 30vw;
-    height: 100vh;
+    height: 75vh;
     padding-left: 80px;
 }
 .sarch{
@@ -172,4 +175,38 @@ header .icon a i {
     font-size: 1.8rem;
     padding-top: 20px;
     color: #454545;
+}
+.page2{
+    height: 100vh;
+    width: 98.9vw;
+}
+.page2 .main2{
+    height: 100vh;
+    width: 98.9vw;
+    display: flex;
+    justify-content: center;
+}
+.page2 .main2 .container{
+    width: 98.9vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9rem;
+}
+.page2 .main2 .container .box1{
+    width: 50vw;
+}
+.page2 .main2 .container .box1 h1{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.page2 .main2 .container .box1 p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+.page2 .main2 .container .box2{
+    width: 30vw;
+    padding: 0 70px;
+}
+.page2 .main2 .container .box2 h1{
+    font-size: 2.5rem;
 }
