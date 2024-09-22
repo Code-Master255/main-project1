@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 98.9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 150px;
+    position: fixed;
+    z-index: 300;
+    transition: 0.2s;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-size: 30px;
+}
+
+header .logo h1 {
+    color: rgb(0, 136, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 55px;
+}
+
+header .logo h1 span {
+    color: #000;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+header .logo ul {
+    display: flex;
+    gap: 25px;
+    color: #fff;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+    z-index: 100;
+    font-style: normal;
+}
+
+header .logo ul li {
+    list-style: none;
+    color: #212121;
+    position: relative;
+    z-index: 100;
+    font-size: 35px;
+}
+
+header .icon{
+    font-size: 38px;
+    display: flex;
+    gap: 25px;
+    z-index: 101;
+}
+
+.inp{
+    display: block;
+}
+
+header .input{
+    position: absolute;
+    height: 3rem;
+    right: 24.5rem;
+    top: 1.5rem;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    width: 20rem;
+    animation: input 1s linear;
+    display: none;
+}
+
+@keyframes input{
+    0%{
+        width: 1rem;
+    }
+    100%{
+        width: 20rem;
+    }
+}
+
+header .icon a i {
+    text-decoration: none;
+    color: #000;
+}
+.home{
+    position: relative;
+    top: 145px;
+    height: 35vh;
+}
+.home .imgage img{
+    width: 98.9vw;
+    height: 35vh;
+}
+.home .imgage .contant{
+    position: absolute;
+    top: 0;
+    width: 98.9vw;
+    height: 35vh;
+}
+.home .imgage .contant h1{
+    font-size: 5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.section{
+    height: 95vh;
+}
+.page1{
+    width: 98.9vw;
+    height: 70vh;
+    position: relative;
+    top: 15rem;
+}
+.main{
+    width: 98.9vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 145px;
+}
+.main .main_box .image img{
+    height: 60vh;
+    width: 50vw;
+}
+.main_profile{
+    width: 30vw;
+    height: 75vh;
+    padding-left: 80px;
+}
+.sarch{
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    height: 23vh;
+}
+.sarch input{
+    height: 3rem;
+    width: 20rem;
+    font-size: 25px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+.main_profile .contant{
+    height: 40vh;
+}
+.main_profile .contant h1{
+    font-size: 2.5rem;
+    padding-bottom: 45px;
+}
+.main_profile .contant ul li{
+    font-size: 1.8rem;
+    padding-top: 20px;
+    color: #454545;
+}
+.page2{
+    height: 120vh;
+    width: 98.9vw;
+}
+.page2 .main2{
+    height: 120vh;
+    width: 98.9vw;  
+    display: flex;
+    justify-content: center;
+}
+.page2 .main2 .container{
+    width: 98.9vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9rem;
+}
+.page2 .main2 .container .box1{
+    width: 50vw;
+}
+.page2 .main2 .container .box1 h1{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.page2 .main2 .container .box1 p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+.page2 .main2 .container .box2{
+    width: 30vw;
+    padding: 0 70px;
+}
+.page2 .main2 .container .box2 h1{
+    font-size: 2.5rem;
+}
+.page2 .main2 .container .box1 .contant .tital{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.5rem;
+}
+.page2 .main2 .container .box1 .contant .tital ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.page2 .main2 .container .box1 .contant .tital .i{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+}
+.page2 .main2 .container .box1 .contant .tital .i i{
+    font-size: 2rem;
+}
+.page2 .main2 .container .box1 .image img{
+    width: 50vw;
+    height: 80vh;
+    padding-top: 8rem;
+}
+.page2 .box2 .image_box{
+    padding-top: 1.5rem;
+}
+.page2 .box2 .image_box .image{
+    display: flex;
+    padding-top: 2.5rem;
+} 
+.page2 .box2 .image_box .image img{
+    height: 11rem;
+    width: 9rem;
+}
+.page2 .box2 .image_box .image .contant{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.page2 .box2 .image_box .image .contant p{
+    padding-bottom: 3rem;
+}
