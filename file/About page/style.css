@@ -97,3 +97,29 @@ header .icon a i {
     text-decoration: none;
     color: #000;
 }
+.home{
+    position: relative;
+    top: 145px;
+    height: 35vh;
+}
+.home .imgage img{
+    width: 98.9vw;
+    height: 35vh;
+}
+.home .imgage .contant{
+    position: absolute;
+    top: 0;
+    width: 98.9vw;
+    height: 35vh;
+}
+.home .imgage .contant h1{
+    font-size: 5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
