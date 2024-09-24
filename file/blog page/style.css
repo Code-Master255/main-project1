@@ -177,12 +177,12 @@ header .icon a i {
     color: #454545;
 }
 .page2{
-    height: 100vh;
+    height: 130vh;
     width: 98.9vw;
 }
 .page2 .main2{
-    height: 100vh;
-    width: 98.9vw;
+    height: 130vh;
+    width: 98.9vw;  
     display: flex;
     justify-content: center;
 }
@@ -209,4 +209,71 @@ header .icon a i {
 }
 .page2 .main2 .container .box2 h1{
     font-size: 2.5rem;
+}
+.page2 .main2 .container .box1 .contant .tital{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.5rem;
+}
+.page2 .main2 .container .box1 .contant .tital ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.page2 .main2 .container .box1 .contant .tital .i{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+}
+.page2 .main2 .container .box1 .contant .tital .i i{
+    font-size: 2rem;
+}
+.page2 .main2 .container .box1 .image img{
+    width: 50vw;
+    height: 80vh;
+    padding-top: 8rem;
+}
+.page2 .main2 .container .box1 .image h1{
+    padding-top: 2rem;
+}
+.page2 .main2 .container .box1 .image p{
+    font-size: 1.5rem;
+}
+.page2 .box2 .image_box{
+    padding-top: 1.5rem;
+}
+.page2 .box2 .image_box .image{
+    display: flex;
+    padding-top: 2.5rem;
+} 
+.page2 .box2 .image_box .image img{
+    height: 11rem;
+    width: 9rem;
+}
+.page2 .box2 .image_box .image .contant{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.page2 .box2 .image_box .image .contant p{
+    padding-bottom: 3rem;
+}
+.page2 .box2 .list{
+    padding-top: 5rem;
+}
+.page2 .box2 .list h2{
+    font-size: 3.5rem;
+}
+.page2 .box2 .list ul{
+    padding-top: 1.5rem;
+}
+.page2 .box2 .list ul li{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.page2 .box2 .list p{
+    font-size: 1.5rem;
 }
