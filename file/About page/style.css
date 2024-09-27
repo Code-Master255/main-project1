@@ -127,7 +127,7 @@ header .icon a i {
     font-style: normal;
 }
 .page1{
-    height: 100vh;
+    height: 105vh;
     width: 98.9vw;
     display: flex;
     justify-content: center;
@@ -142,15 +142,31 @@ header .icon a i {
 .page1 .main .box1{
     height: 90vh;
     width: 60vw;
-    border: 2px solid #000;
     padding-left: 1.5rem;
     padding-top: 1rem;
 }
 .page1 .main .box1 .contant h1{
-    font-size: 2.8rem;
+    font-size: 3rem;
+}
+.page1 .main .box1 .contant p{
+    font-size: 2rem;
+    padding-top: 2.8rem;
 }
 .page1 .main .box2{
     height: 90vh;
     width: 30vw;
+    padding: 2.5rem 2rem;
+}
+.page1 .main .box2 .image .backround img{
+    height: 52vh;
+    width: 23vw;
     border: 2px solid #000;
+}
+.page1 .main .box2 .image .backround{
+    height: 60vh;
+    width: 27vw;
+    border: 3px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
